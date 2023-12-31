@@ -16,7 +16,7 @@ jobs:
         path: 'target_repo'
 
     - name: Clone upstream repository
-      run: git clone https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git upstream_repo
+      run: git clone https://github.com/heyong5454/ManifestAutoUpdate.git upstream_repo
 
     - name: Sync branches and modifications
       run: |
